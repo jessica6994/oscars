@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Cinzel Bold'), local('Cinzel-Bold'), url(https://fonts.gstatic.com/s/cinzel/v9/8vIK7ww63mVu7gtzTUHuE2Za.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Cinzel Regular'), local('Cinzel-Regular'), url(https://fonts.gstatic.com/s/cinzel/v9/8vIJ7ww63mVu7gt79mT7.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+body{
+  background: url("outside-glitch.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+.navfont{
+  font-family: "cinzel";
+  color: #000000;
+  font-size:20px;
+}
+.navfont-small{
+  font-family: "cinzel";
+  color: #000000;
+  font-size:16px;
+}
+.sidebar{
+  height:100vh;
+  margin:0;
+}
+.sidenavicon{
+  color: #000000;
+  font-size: 16px;
+  padding-right: 5px;
+}
+.bottomnavicon{
+  color: #000000;
+  font-size: 30px;
+  padding-left:10px;
+  padding-right:10px;
+}
+.fa-facebook-square:hover{
+  color: #3B5998;
+}
+.fa-twitter-square:hover{
+  color:#1da1f2;
+}
+.fa-instagram:hover{
+  color:#dd2a7b;
+}
+.hoverlinks{
+  padding:
+}
+.darkhover{
+  background-color: rgba(105, 96, 86, 0.85);
+}
+.nav-link:hover{
+  color:#000000;
+}
+.oscarlogo{
+  background-color: rgba(105, 96, 86, 0.85);
+  padding:0;
+}
